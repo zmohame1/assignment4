@@ -1,0 +1,20 @@
+h1,
+h2 {
+    color: rgb(218, 22, 47);
+    font-family: fantasy;
+    background-color: aqua;
+}
+
+body {
+    background-color: beige;
+
+}
+
+main {
+    background-color: darkorchid;
+}
+
+
+nav ul {
+    list-style: none;
+}
