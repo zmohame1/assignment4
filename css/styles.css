@@ -18,3 +18,55 @@ main {
 nav ul {
     list-style: none;
 }
+
+form p {
+    
+    display: flex;
+    margin-bottom: 1em;
+    
+    
+    
+}
+
+form label {
+    flex-basis: 33%;
+    
+}
+
+form input, textarea, select {
+    flex:1;
+    margin: 0 1em;
+    border-radius: 5px;
+    }
+
+form select {
+    text-align: center;
+    }
+
+@media screen and (max-width: 50rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+    form input, textarea {
+        margin: 2px 0;
+                
+    }
+    
+    form select {
+        margin:0;
+    }
+    
+    
+    
+       
+    .hero-text {
+        flex: none;
+    }
+    
+    
+}
+
+
